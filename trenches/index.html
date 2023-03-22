@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trenches</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+</head>
+
+<body>
+    <div class="loader">
+        <div class="square" id="sq1"></div>
+        <div class="square" id="sq2"></div>
+        <div class="square" id="sq3"></div>
+        <div class="square" id="sq4"></div>
+        <div class="square" id="sq5"></div>
+        <div class="square" id="sq6"></div>
+        <div class="square" id="sq7"></div>
+        <div class="square" id="sq8"></div>
+        <div class="square" id="sq9"></div>
+      </div>
+
+    <header class="navbar">
+        <div class="nav-brand">
+            <h3>Trenches</h3>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        cart
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        profile
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        mode
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="homepage" id="homepage">
+        <div class="banner">
+            <div class="carousel">
+                <ul>
+                    <li>
+                        <img src='img/trenches-2.jpg' alt="image">
+                    </li>
+                    <li>
+                        <img src="img/trenches-3.jpg" alt="image">
+                    </li>
+                    <li>
+                        <img src="img/trenches-4.jpg" alt="image">
+                    </li>
+                    <li>
+                        <img src="img/trenches-5.jpg" alt="image">
+                    </li>
+                    <li>
+                        <img src="img/trenches-6.jpg" alt="image">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="homepage">
+
+        </div>
+    </section>
+
+    <section class="cart">
+        <div class="cart-cont">
+        <div class="cart-options">
+            <div class="cart-brand">
+                <h2>
+                    Recommended Products
+                </h2>
+            </div>
+            <div class="cart-links">
+                <ul>
+                    <li>
+                        <a href="#">
+                            Top
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Shirt
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Designers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Cardigans
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+
+
+        <div class="cart-products">
+            <div class="cart-card">
+                <div class="cart-img"></div>
+                <div class="cart-desc">
+                    <p class="cart-name">T-shirt</p>
+                    <p class="cart-amount">$15</p>
+                </div>
+                <p class="cart-info">Well branded quality shirt</p>
+
+                <div class="cart-btn">
+                    <button type="button">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.flipster.min.js"></script>
+    <script>
+        $('.carousel').flipster({
+            style:'carousel',
+            spacing:-0.3,
+        });
+    </script>
+    
+</body>
+
+</html>
